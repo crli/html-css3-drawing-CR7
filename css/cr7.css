@@ -62,10 +62,9 @@
 	width: 40px;
 	height: 40px;
 	border-top: 4px solid #0B0B0B;
-	border-left: 1px solid #0B0B0B;
 	border-radius: 115px 30px 0 0;
 	z-index: 1;
-	transform: rotate(78deg) translate(-5px);
+	transform: rotate(78deg) translate(-4px);
 }
 .hair31{
 	top: 20px;
@@ -189,7 +188,6 @@
 	width: 33px;
 	height: 18px;
 	border-top: 6px solid #0B0B0B;
-	z-index: 1;
 }
 .left-brow{	
 	border-left: 1px solid #0B0B0B;
@@ -206,7 +204,6 @@
 }
 .eye{
 	position: absolute;
-	z-index: 1;
 	background-color: #fff;
 	width: 20px;
 	height: 17px;
@@ -226,7 +223,6 @@
 .eye:before{
 	position: absolute;
 	content: '';
-	z-index: 1;
 	width: 14px;
 	height: 14px;
 	top: 1px;
@@ -251,7 +247,6 @@
 .left-eye-b,
 .right-eye-b{
 	position: absolute;
-	z-index: 1;
 	border-top: 2px solid #000;
 	width: 14px;
 	height: 3px;
@@ -291,7 +286,6 @@
 }
 .nose{
 	position: absolute;
-	z-index: 1;
 	width: 10px;
 	height: 33px;
 	top: 66px;
@@ -311,7 +305,6 @@
 .nose:after{
 	position: absolute;
 	content: '';
-	z-index: 1;
 	border-top: 1px solid #9F5B1A;
 	width: 10px;
 	height: 8px;
@@ -333,7 +326,6 @@
 .bottom-nose{
 	position: absolute;
 	content: '';
-	z-index: 1;
 	border-bottom: 1px solid #9F5B1A;
 	width: 10px;
 	height: 8px;
@@ -353,7 +345,6 @@
 .bottom-nose:before{
 	content: "";
 	position: absolute;
-	z-index: 1;
 	width: 6px;
 	height: 1px;
 	background-color: #000;
@@ -369,7 +360,6 @@
 }
 .mouth{
 	position: absolute;
-	z-index: 1;
 	background-color:#FF9F7C;
 	box-shadow: 0 0 2px 2px  #FFA076;
 	width: 17px;
@@ -382,12 +372,12 @@
 .mouth:before,
 .mouth:after{
 	position: absolute;
-	z-index: 1;
 	content: "";
 	width: 14px;
 	height: 12px;
 	border-top: 3px solid #89635A;
 	border-radius: 29px 3px 0px 16px ;
+	-moz-transform:rotate(66deg);
 	transform: rotate(66deg);
 
 }
@@ -478,7 +468,6 @@
 .top-strip:before,
 .top-strip:after{
 	position: absolute;
-	z-index: 1;
 	content: "";
 	width: 35px;
 	height: 10px;
@@ -524,7 +513,6 @@
 	border-top: 1px solid #89635A;
 	border-left: 1px solid #89635A;
 	border-radius: 54px 0 0 0;
-	z-index: 1;
 	transform: rotate(224deg);
 	top: -81px;
 	left: 7px;
@@ -532,7 +520,6 @@
 }
 .shorts{
 	position: absolute;
-	z-index: 1;
 	width: 70px;
 	height: 35px;
 	border:1px solid #000;
@@ -546,7 +533,6 @@
 .shorts:before,
 .shorts:after{
 	position: absolute;
-	z-index: 1;
 	content: "";
 	width: 10px;
 	height: 30px;
@@ -601,7 +587,6 @@
 .left-hand:before,
 .right-hand:before{
 	position: absolute;
-	z-index: 1;
 	content: "";
 	width: 10px;
 	height: 1px;
@@ -619,7 +604,6 @@
 }
 .leg{
 	position: absolute;
-	z-index: 1;
 	width: 21px;
 	height: 20px;
 	background-color: #FDBF76;
@@ -657,7 +641,6 @@
 }
 .socks:before{
 	position: absolute;
-	z-index: 1;
 	content: "";
 	width: 20px;
 	height: 3px;
@@ -666,7 +649,6 @@
 }
 .socks:after{
 	position: absolute;
-	z-index: 1;
 	content: "";
 	width: 20px;
 	height: 3px;
