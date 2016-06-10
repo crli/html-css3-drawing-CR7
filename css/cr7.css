@@ -746,8 +746,8 @@
 	width: 1px;
 	background-color: #000;
 	transform: rotate(35deg);
-	top: 20px;
-	left: 300px;
+	top: 115px;
+	left: 482px;
 }
 .hahaha{
 	position: absolute;
@@ -757,9 +757,10 @@
 	text-align: center;
 	line-height: 50px;
 	font-size: 24px;
-	top: -6px;
-	left: 220px;
+	top: 88px;
+	left: 416px;
 }
+a{display: block;width: 100%;text-align: center;font-size: 24px}
 
 
 
