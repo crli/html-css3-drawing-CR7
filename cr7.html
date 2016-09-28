@@ -3,7 +3,6 @@
 <head>
 	<meta charset="UTF-8" />
 	<title>Cristiano Ronaldo</title>
-	<!-- <link rel="stylesheet" type="text/css" href="css/cr7.css"> -->
 </head>
 <body>
 	<div class="main">
@@ -82,9 +81,9 @@
 <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
 <script type="text/javascript">
 (function($) {
-		$.ajax({
+	$.ajax({
     type:"GET",
-    url:"ajaxcr7.html",
+    url:"cr7aj.html",
     dataType:"html",
     success: function(data){
         $("head").append($(data));
@@ -95,7 +94,6 @@
 			var $ele = $(this), str = $ele.html(), progress = 0;
 			$ele.html('');
 			var timer = setInterval(function() {
-				var current = str.substr(progress, 1);
 				progress++;
 				$ele.html(str.substring(0, progress));
 				if (progress >= str.length) {
@@ -109,10 +107,10 @@
 })(jQuery);
 $("button").on("click",function(){
 	$("button").hide();
-	// $("link").remove();
 $("style").typecss();
 })
 
 </script>
+
 </body>
 </html>
