@@ -7,18 +7,18 @@
 First, you should clone the repo and install the dependencies.
 
 ```bash
-$ git clone https://github.com/crli/html-css3-drawing-CR7.git <yourAppName>
-$ cd <yourAppName>
+$ git clone https://github.com/crli/html-css3-drawing-CR7.git <yourName>
+$ cd <yourName>
 $ npm install
 ```
 
-Then, launch the boilerplate src.
+Then, launch the src.
 
 ```bash
 $ npm start
 ```
 
-You should see a new browser tap opening  in http://localhost:8080/html-css3-drawing-CR7/dist/index.html.
+You should see a new browser tap opening in  http://localhost:8080/html-css3-drawing-CR7/dist/index.html.
 
 From there, you start to develop your own code in the `src` directory
 
