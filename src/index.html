@@ -78,39 +78,5 @@
 		<div class="hahaha">我是C罗，我整容了。。。</div>
 		<button style="width: 200px;height: 40px">观看制作过程</button>
 	</div>
-<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
-<script type="text/javascript">
-(function($) {
-	$.ajax({
-    type:"GET",
-    url:"cr7aj.html",
-    dataType:"html",
-    success: function(data){
-        $("head").append($(data));
-    }
-})
-	$.fn.typecss = function() {
-		this.each(function() {
-			var $ele = $(this), str = $ele.html(), progress = 0;
-			$ele.html('');
-			var timer = setInterval(function() {
-				progress++;
-				$ele.html(str.substring(0, progress));
-				if (progress >= str.length) {
-					clearInterval(timer);
-					$("button").show()
-				}
-			}, 1);
-		});
-		return this;
-	};
-})(jQuery);
-$("button").on("click",function(){
-	$("button").hide();
-$("style").typecss();
-})
-
-</script>
-
 </body>
 </html>
